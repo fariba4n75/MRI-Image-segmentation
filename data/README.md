@@ -12,7 +12,7 @@ Training and test data should be placed inside the data/ folder.
 Each patient folder contains both the MRI slices and their corresponding mask images.
 
 ## Example structure:
-'''
+```
 data/
  ├── training1/
  │    ├── training01_01_flair_pp_slice_59.tiff
@@ -22,7 +22,7 @@ data/
  │    ├── training02_01_flair_pp_slice_152.tiff
  │    ├── training02_01_flair_pp_slice_152+mask.tiff
  │    └── ...
-'''
+```
 ## 📥 Download
 
 The preprocessed dataset (converted to .tiff) can be downloaded from the following Google Drive link:
